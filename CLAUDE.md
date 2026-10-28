@@ -19,6 +19,13 @@
 - La portada se adapta a celular; las demos son solo de escritorio, con un aviso
   en pantallas chicas. *Por qué: son sistemas de oficina y se juzgan en pantalla
   grande.*
+- Un solo `DESIGN.md` rige la portada y todas las demos; cada demo vive en su
+  subruta (`/erp/`, `/buque/`, `/seguridad/`) y se distingue solo por su color de
+  acento. *Por qué: el sitio se lee como una sola obra y ninguna demo se parece
+  al producto real de la empresa.*
+- El código que muestra el panel «Cómo funciona» se escribe para la demo, con
+  nombres neutros; no se copia de los repos de las empresas. *Por qué: lo que
+  nunca fue de la empresa no hay que limpiarlo.*
 - HTML, CSS y JS a mano, sin framework ni paso de build. *Por qué: es un sitio
   estático y lo que no se compila no se rompe.*
 
